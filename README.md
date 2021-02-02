@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi there, I'm <a href="https://umar0x01.sh"  target="_blank">Shafay!</a> 👋</h1>
     
-<h3 align="center">Business Intelligence Engineer @ Amazon, Data/</h3>
+<h3 align="center">Business Intelligence Engineer @ Amazon, Data/Machine Learning/Software Engineer!</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Anon-Exloiter&style=flat&color=blueviolet" alt=umararfeen/> </p>
 
 ```python3
