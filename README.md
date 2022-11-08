@@ -13,6 +13,10 @@ def greet():
 ```
 
 
+<p align="center"> <img src="https://www.linkedin.com/in/imshafay" alt=shafaypro /> </p>
+
+
+
 <p align="center"> 
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg alt="shafaypro" height="25" width="25" /></a>
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg alt="https://pk.linkedin.com/in/imshafay" height="25" width="25" /></a>    
