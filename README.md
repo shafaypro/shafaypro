@@ -12,8 +12,6 @@ def greet():
     print(f"Welcome {os.popen('whoami').read().strip()}!! 👋")
 ```
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=shafaypro&count_private=true&show_icons=true&theme=radical" alt=shafaypro /> </p>
-
 
 <p align="center"> 
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg alt="shafaypro" height="25" width="25" /></a>
