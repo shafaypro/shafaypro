@@ -17,7 +17,16 @@ def greet():
 
 
 
+## :trophy: Git profile Trophies
+
+  
+
+<p  align="center">  <a  href="https://github.com/ryo-ma/github-profile-trophy"><img  src="https://github-profile-trophy.vercel.app/?username=mhjhamza&layout=compact&theme=algolia"  alt="mhjhamza"  /></a>  </p>
+
+  
+
 <p align="center"> 
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg alt="shafaypro" height="25" width="25" /></a>
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg alt="https://pk.linkedin.com/in/imshafay" height="25" width="25" /></a>    
 </p>
+
