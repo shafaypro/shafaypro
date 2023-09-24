@@ -39,4 +39,4 @@ def greet():
 ## Detailed 🖥️ list
 
 
-<a title="PCPARTPICKSPECS" href="https://pcpartpicker.com/list/vtbQqR"></a>
+<a title="PCPARTPICKSPECS" href="https://pcpartpicker.com/list/vtbQqR">PC Parts List</a>
