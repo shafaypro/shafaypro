@@ -31,8 +31,9 @@ def greet():
 </p>
 
 
-
 ## 💻 Specs of Machine
+
+<center><a title="System requirements and Rate my PC tool - all at PCGameBenchmark" href="https://www.pcgamebenchmark.com/ratemypc?cpu=intel-core-i9-13900k&memory=64gb&gpu=amd-radeon-rx-7900-xtx&platform=windows"><img src="https://www.pcgamebenchmark.com/signature/intel-core-i9-13900k/64gb/amd-radeon-rx-7900-xtx/forum.png"></a> </center>
 
 <a title="System requirements and Rate my PC tool - all at PCGameBenchmark" href="https://www.pcgamebenchmark.com/ratemypc?cpu=intel-core-i9-13900k&memory=64gb&gpu=amd-radeon-rx-7900-xtx&platform=windows"><img align="center" src="https://www.pcgamebenchmark.com/signature/intel-core-i9-13900k/64gb/amd-radeon-rx-7900-xtx/twitch.png"></a>
 
