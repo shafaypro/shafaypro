@@ -31,6 +31,9 @@ def greet():
 </p>
 
 <h2> Certifications </h2>
+<a href="https://www.credly.com/users/muhammad-shafay-amjad/badges"> Credly Badges</a>
+
+
 <p aligh="center"> 
 <ul>
   <li> DataBricks Spark - 2023 </li>
@@ -45,6 +48,7 @@ def greet():
   <li>AWS Certified Cloud Practitioner - 2020</li>
   <li>Specialization in Statistics and Deep Learning (2019)</li>
   <li>Specialization in Python and Ex. Data Science (2016)</li>
+    
 </ul>
 
 </p>
