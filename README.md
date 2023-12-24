@@ -30,6 +30,24 @@ def greet():
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg alt="https://pk.linkedin.com/in/imshafay" height="100" width="100" /></a>    
 </p>
 
+<h2> Certifications </h2>
+<p aligh="center"> 
+<ul>
+  <li> DataBricks Spark - 2023 </li>
+  <li>DataBricks GenAi Fundamentals - 2023</li>
+  <li>HashiCorp Certified Terraform Associate - 2023</li>
+  <li>Airflow Certified/DAG AUTH - 2023</li>
+  <li>GCP Cloud Engineer (ACG) - 2023</li>
+  <li>GCP Data Engineer (ACG) - 2023</li>
+  <li>HashiCorp Infrastructure Automation Certification (ACG) - 2022</li>
+  <li>AWS Certified Machine Learning Specialist - 2021</li>
+  <li>AWS Certified Solution Architect (Associate) - 2020</li>
+  <li>AWS Certified Cloud Practitioner - 2020</li>
+  <li>Specialization in Statistics and Deep Learning (2019)</li>
+  <li>Specialization in Python and Ex. Data Science (2016)</li>
+</ul>
+
+</p>
 
 ## 💻 Specs of Machine
 
