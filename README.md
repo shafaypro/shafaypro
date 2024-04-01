@@ -55,6 +55,17 @@ def greet():
 </ul>
 
 </p>
+<ul>
+  <li>Lead Data Engineer  at <a href="#experience1"> Orion Engineer Carbons</a></li>
+  <li>Sr Software/Data Engineer II  at <a href="#experience2">Delivery Hero</a></li>
+  <li>Senior Data Engineer  at <a href="#experience3">Amazon </a></li>
+  <li>Data Scientist  at <a href="#experience4">NorthbaySolutions</a></li>
+  <li>Machine Learning Engineer  at <a href="#experience5">NorthbaySolutions</a></li>
+  <li>Software Development Engineer II  at <a href="#experience6">NorthbaySolutions</a></li>
+  <li>Professional Service Consultant   at <a href="#experience7">Teradata</a></li>
+</ul>
+
+
 
 ## 💻 Specs of Machine
 
