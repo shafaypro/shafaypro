@@ -5,7 +5,7 @@
 
 <h2 align="center">👋 A Dual Data Engineer 👋</h2>
     
-<h3 align="center">Lead Data Engineer @Ex Amazon @Ex Northbay @Ex Goldsman Sachs @Ex Delivery Hero SE , Data/Machine Learning/Software Engineer!</h3>
+<h3 align="center">Lead Data Engineer @Ex Amazon @Ex Northbay @Ex Goldsman Sachs @Ex Meta @Ex Delivery Hero SE , Data/Machine Learning/Software Engineer!</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Anon-Exloiter&style=flat&color=blueviolet" alt=umararfeen/> </p>
 
 ```python3
