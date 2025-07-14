@@ -40,6 +40,7 @@ def greet():
 
 <p aligh="center"> 
 <ul>
+  <li>AWS Certified Data Engineer Associate - 2025</li>
   <li> DataBricks Spark - 2023 </li>
   <li>DataBricks GenAi Fundamentals - 2023</li>
   <li>HashiCorp Certified Terraform Associate - 2023</li>
