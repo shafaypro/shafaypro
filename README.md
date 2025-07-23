@@ -30,7 +30,7 @@ def greet():
 
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=shafaypro)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=shafaypro)](https://github.com/imshafay/github-profile-trophy)
 
 
 
