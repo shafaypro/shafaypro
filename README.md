@@ -22,11 +22,31 @@ def greet():
 
 ## :trophy: Git profile Trophies
 
-  [![trophy](https://github-profile-trophy.vercel.app/?username=shafaypro&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+[![stargazers](https://img.shields.io/github/stars/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/stargazers)
+[![forks](https://img.shields.io/github/forks/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/network/members)
+[![issues](https://img.shields.io/github/issues/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/issues)
+[![license](https://img.shields.io/github/license/ryo-ma/github-profile-trophy)](https://github.com/ryo-ma/github-profile-trophy/blob/master/LICENSE)
+[![share](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy)](https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy)
 
+</div>
+<p align="center">
+  You can use this service for free. I'm looking for sponsors to help us keep up with this service❤️
+</p>
+<div align="center">
+  <a href="https://github.com/sponsors/ryo-ma">
+    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4" alt="Sponsor"/>
+  </a>
+</div>
 
+# Quick Start
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)  
+Add the following code to your readme. When pasting the code into your profile's
+readme, change the `?username=` value to your GitHub's username.
+
+```
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+```
+
 
 <p align="center"> 
 <a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg alt="shafaypro" height="100" width="100" /></a>
