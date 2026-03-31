@@ -3,7 +3,7 @@
 <h1 align="center">Hi there, I'm <a href="https://github.com/shafaypro"  target="_blank">Shafay!</a> 👋</h1>
 
 
-<h2 align="center">👋 A Dual Data Engineer 👋</h2>
+<h2 align="center">👋 A Dual Lead Data Engineer/ Scientist 👋</h2>
     
 <h3 align="center">Lead Data Engineer @Ex Amazon @Ex Northbay @Ex Goldsman Sachs @Ex Meta @Ex Delivery Hero SE , Data/Machine Learning/Software Engineer!</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Anon-Exloiter&style=flat&color=blueviolet" alt=umararfeen/> </p>
