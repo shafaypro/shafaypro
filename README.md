@@ -1,74 +1,138 @@
-<p align="center"> <img src="https://octodex.github.com/images/vinyltocat.png" height="160px" width="160px"> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"> <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="160px" width="160px"> <img src="https://octodex.github.com/images/Robotocat.png" height="160px" width="160px"></p>
+<h1 align="center">Muhammad Shafay Amjad</h1>
+<p align="center">
+  <strong>Lead Data Platform Engineer | AI & GenAI Engineer | Data Platform Architect</strong>
+</p>
+<p align="center">
+  Building enterprise-scale data platforms, production ML systems, and GenAI applications across AWS and GCP.
+</p>
 
-<h1 align="center">Hi there, I'm <a href="https://github.com/shafaypro"  target="_blank">Shafay!</a> 👋</h1>
+<p align="center">
+  <a href="https://shafay.deutschhier.com/">
+    <img src="https://img.shields.io/badge/Portfolio-shafay.deutschhier.com-0b3d2e?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/shafaypro">
+    <img src="https://img.shields.io/badge/GitHub-shafaypro-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://pk.linkedin.com/in/imshafay">
+    <img src="https://img.shields.io/badge/LinkedIn-imshafay-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.credly.com/users/muhammad-shafay-amjad/badges">
+    <img src="https://img.shields.io/badge/Certifications-Credly-f97316?style=for-the-badge&logoColor=white" alt="Credly" />
+  </a>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to-Remote%20Roles-1f2937?style=flat-square" alt="Open to remote roles" />
+  <img src="https://img.shields.io/badge/Almost-10%20Years%20Experience-1d4ed8?style=flat-square" alt="Almost 10 years experience" />
+  <img src="https://img.shields.io/badge/13%2B-Certifications-7c3aed?style=flat-square" alt="13+ certifications" />
+  <img src="https://img.shields.io/badge/Billions-Events%2FDay-0f766e?style=flat-square" alt="Billions of events per day" />
+  <img src="https://img.shields.io/badge/Multi--Cloud-AWS%20%7C%20GCP-b45309?style=flat-square" alt="AWS and GCP" />
+</p>
 
-<h2 align="center">👋 A Dual Lead Data Engineer/ Scientist 👋</h2>
-    
-<h3 align="center">Lead Data Engineer @Ex Amazon @Ex Northbay @Ex Goldsman Sachs @Ex Meta @Ex Delivery Hero SE , Data/Machine Learning/Software Engineer!</h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Anon-Exloiter&style=flat&color=blueviolet" alt=umararfeen/> </p>
+## Executive Summary
 
-```python3
-import os
+I am a Lead Data Platform Engineer with almost 10 years of experience across data engineering, machine learning, and software engineering. I design reliable data platforms, analytics systems, and GenAI solutions that move from prototype to production with governance, observability, and cost discipline built in.
 
-def greet():
-    print(f"Welcome {os.popen('whoami').read().strip()}!! 👋")
+My background includes Orion Engineered Carbons, Delivery Hero, Meta, Amazon, Goldman Sachs, NorthBay Solutions, and Teradata. Across these environments, I have built platforms handling billions of events per day, modernized cloud infrastructure, and shipped AI systems that support real business workflows.
+
+## What I Build
+
+| Area | Focus |
+| --- | --- |
+| Data Platforms | Lakehouse architectures, ELT and ETL pipelines, metadata-driven workflows, governance, lineage, and scalable analytics |
+| Streaming Systems | Kafka, Kinesis, Spark, and event-driven pipelines for near real-time reporting and intelligent automation |
+| GenAI Engineering | RAG systems, LLM-powered agents, internal copilots, chatbots, knowledge retrieval, and business workflow automation |
+| ML and MLOps | Production ML pipelines, feature and training workflows, recommendation systems, and model deployment on cloud-native stacks |
+
+## High-Signal Strengths
+
+- Data Engineering: Python, SQL, Spark, DBT, Airflow, Dagster, Kafka, Kinesis, BigQuery, Redshift, Snowflake, Trino
+- Cloud and Platform: AWS, GCP, Terraform, Kubernetes, serverless architecture, GitHub Actions, observability, infrastructure automation
+- GenAI and AI: Amazon Bedrock, OpenAI API, LangChain, HuggingFace, RAG pipelines, vector search, prompt workflows, LLM application delivery
+- Delivery and Leadership: architecture design, technical leadership, stakeholder alignment, platform modernization, production hardening
+
+## Current Hot Topics I Work On
+
+- Modern lakehouse and open table architectures using Delta Lake and Apache Iceberg patterns
+- Data quality, contracts, lineage, and trustworthy pipelines for platform-scale analytics
+- Real-time data products powered by Kafka, Kinesis, Spark, and event-driven processing
+- Production GenAI systems using RAG, knowledge bases, agents, and evaluation-driven iteration
+- Multi-cloud data and AI infrastructure with Terraform, Kubernetes, and CI/CD automation
+- ML and LLM platform engineering focused on reliability, governance, and cost-aware deployment
+
+## Experience Snapshot
+
+| Role | Company | Highlights |
+| --- | --- | --- |
+| Lead Data Platform Engineer, AI Tech | Orion Engineered Carbons | Built a serverless AWS data platform, metadata-driven pipelines, and GenAI solutions with Bedrock and LangChain |
+| Senior Data Engineer II | Delivery Hero | Delivered large-scale analytics on AWS and GCP, real-time APIs, and Terraform-based infrastructure modernization |
+| Senior Data Engineer | Meta | Developed product analytics pipelines and large-scale distributed data infrastructure |
+| Senior Data Engineer | Amazon | Built predictive analytics and serverless data and ML workflows with Redshift, Glue, Lambda, Athena, and SageMaker |
+| Senior ML Engineer | Goldman Sachs | Built secure ML and data workflows in regulated enterprise environments |
+| Data Scientist / ML Engineer / SDE II | NorthBay Solutions | Built ML systems, OCR automation, recommendation engines, and cloud-native data solutions |
+
+## Selected Platform and AI Work
+
+- Enterprise Serverless Data Platform: lakehouse-style AWS platform for analytics across manufacturing, operations, and finance
+- LLM-Powered AI Agents and Chatbots: GenAI solutions with Amazon Bedrock, LangChain, Streamlit, and retrieval workflows
+- Multi-Stream Real-Time Data Systems: Kafka and Kinesis platforms supporting large-scale event processing and operational analytics
+- Global Analytics on GCP: BigQuery, Spark, DBT, and Cloud Functions for international-scale data products
+- Production ML Pipelines: SageMaker, TensorFlow, and PyTorch systems for predictive analytics and recommendation use cases
+- Terraform-Based Modernization: standardized infrastructure delivery across AWS and GCP with reproducible deployments
+
+## Featured Repositories
+
+<p align="center">
+  <a href="https://github.com/shafaypro/CrackingMachineLearningInterview">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shafaypro&repo=CrackingMachineLearningInterview&hide_border=true&title_color=0f172a&icon_color=0b3d2e&text_color=334155&bg_color=ffffff" alt="CrackingMachineLearningInterview repository card" />
+  </a>
+  <a href="https://github.com/shafaypro/PYSHA">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shafaypro&repo=PYSHA&hide_border=true&title_color=0f172a&icon_color=0b3d2e&text_color=334155&bg_color=ffffff" alt="PYSHA repository card" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/shafaypro/DeepLearningZerotoHero">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shafaypro&repo=DeepLearningZerotoHero&hide_border=true&title_color=0f172a&icon_color=0b3d2e&text_color=334155&bg_color=ffffff" alt="DeepLearningZerotoHero repository card" />
+  </a>
+</p>
+
+## Certifications
+
+- AWS Certified Data Engineer Associate
+- Databricks Spark
+- Databricks GenAI Fundamentals
+- HashiCorp Terraform Associate
+- Airflow
+- GCP Cloud Engineer
+- GCP Data Engineer
+- AWS Certified Machine Learning Specialist
+- AWS Certified Solutions Architect Associate
+- AWS Certified Cloud Practitioner
+
+Full badge list: [Credly Profile](https://www.credly.com/users/muhammad-shafay-amjad/badges)
+
+## Core Stack
+
+```text
+Data Platform: Airflow, DBT, Spark, Kafka, Kinesis, Delta Lake, Iceberg, BigQuery, Redshift, Snowflake
+Cloud: AWS, GCP, Terraform, Kubernetes, Serverless, GitHub Actions
+GenAI: Bedrock, OpenAI API, LangChain, HuggingFace, RAG, Vector Databases
+ML: SageMaker, TensorFlow, PyTorch, MLflow, Kubeflow
+Languages: Python, SQL, Scala, R, Bash, SPARQL
 ```
 
+## Links
 
-<p align="center"> Learning and Implementing </p>
+- Portfolio: [shafay.deutschhier.com](https://shafay.deutschhier.com/)
+- GitHub: [github.com/shafaypro](https://github.com/shafaypro)
+- LinkedIn: [pk.linkedin.com/in/imshafay](https://pk.linkedin.com/in/imshafay)
+- Certifications: [Credly](https://www.credly.com/users/muhammad-shafay-amjad/badges)
 
-
-
-
-<p align="center"> 
-<a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg alt="shafaypro" height="100" width="100" /></a>
-<a href="https://pk.linkedin.com/in/imshafay" target="blank"><img align="center" src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg alt="https://pk.linkedin.com/in/imshafay" height="100" width="100" /></a>    
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shafaypro&show_icons=true&hide_border=true&title_color=0f172a&icon_color=0b3d2e&text_color=334155&bg_color=ffffff" alt="GitHub stats" />
 </p>
 
-<h2> Certifications </h2>
-<a href="https://www.credly.com/users/muhammad-shafay-amjad/badges"> Credly Badges</a>
-
-
-<p aligh="center"> 
-<ul>
-  <li>AWS Certified Data Engineer Associate - 2025</li>
-  <li> DataBricks Spark - 2023 </li>
-  <li>DataBricks GenAi Fundamentals - 2023</li>
-  <li>HashiCorp Certified Terraform Associate - 2023</li>
-  <li>Airflow Certified/DAG AUTH - 2023</li>
-  <li>GCP Cloud Engineer (ACG) - 2023</li>
-  <li>GCP Data Engineer (ACG) - 2023</li>
-  <li>HashiCorp Infrastructure Automation Certification (ACG) - 2022</li>
-  <li>AWS Certified Machine Learning Specialist - 2021</li>
-  <li>AWS Certified Solution Architect (Associate) - 2020</li>
-  <li>AWS Certified Cloud Practitioner - 2020</li>
-  <li>Specialization in Statistics and Deep Learning (2019)</li>
-  <li>Specialization in Python and Ex. Data Science (2016)</li>
-    
-</ul>
-
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shafaypro&layout=compact&hide_border=true&title_color=0f172a&text_color=334155&bg_color=ffffff" alt="Top languages" />
 </p>
-<h2 align="center">Experience</h2>
-
-<ul>
-  <li>Lead Data Engineer  at <a href="https://orioncarbons.com/"> Orion Engineered Carbons</a></li>
-  <li>Senior Data Engineer II  at <a href="https://www.deliveryhero.com/">Delivery Hero</a></li>
-  <li>Senior Data Engineer  at <a href="https://www.meta.com"> Meta </a></li>
-  <li>Senior Data Engineer  at <a href="https://www.amazon.de">Amazon </a></li>
-  <li>Data Scientist  at <a href="https://northbaysolutions.com/">NorthbaySolutions</a></li>
-  <li>Machine Learning Engineer  at <a href="https://northbaysolutions.com/">NorthbaySolutions</a></li>
-  <li>Software Development Engineer II  at <a href="https://northbaysolutions.com/">NorthbaySolutions</a></li>
-  <li>Professional Service Consultant   at <a href="https://www.teradata.com">Teradata</a></li>
-</ul>
-
-
-## 💻 Specs of Machine
-
-<center><a title="System requirements and Rate my PC tool - all at PCGameBenchmark" href="https://www.pcgamebenchmark.com/ratemypc?cpu=intel-core-i9-13900k&memory=64gb&gpu=amd-radeon-rx-7900-xtx&platform=windows"><img src="https://www.pcgamebenchmark.com/signature/intel-core-i9-13900k/64gb/amd-radeon-rx-7900-xtx/forum.png"></a> </center>
-
-<a title="System requirements and Rate my PC tool - all at PCGameBenchmark" href="https://www.pcgamebenchmark.com/ratemypc?cpu=intel-core-i9-13900k&memory=64gb&gpu=amd-radeon-rx-7900-xtx&platform=windows"><img align="center" src="https://www.pcgamebenchmark.com/signature/intel-core-i9-13900k/64gb/amd-radeon-rx-7900-xtx/twitch.png"></a>
-
-## Detailed 🖥️ list
-
-
