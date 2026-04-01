@@ -1,4 +1,4 @@
-<h1 align="center">Muhammad Shafay Amjad</h1>
+<h1 align="center">Shafay</h1>
 <p align="center">
   <strong>Lead Data Platform Engineer | AI & GenAI Engineer | Data Platform Architect</strong>
 </p>
