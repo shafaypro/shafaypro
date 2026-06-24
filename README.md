@@ -60,11 +60,11 @@ def build_data_platform():
     }
 ```
 
-I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ years** architecting enterprise-scale data platforms and intelligent systems. Across top-tier companies — **Meta, Amazon, Delivery Hero, Goldman Sachs**, and leading enterprises — I've built solutions processing **billions of events daily**, driving measurable revenue growth and operational excellence.
+I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ years** architecting enterprise-scale data platforms and intelligent systems. Across top-tier companies like **Meta, Amazon, Delivery Hero, and Goldman Sachs**, I've built solutions processing **billions of events daily** that drive measurable revenue growth and operational excellence.
 
-- 🏗️ **End-to-end data platforms** — I architect and ship complete platforms from ingestion to serving: metadata-driven pipelines with Airflow, DBT, Spark & Kafka, full governance, lineage, and automated lifecycle management across AWS & GCP.
-- 🤖 **GenAI & agentic AI** — in my latest work I build **complete end-to-end GenAI applications and agentic AI systems**: multi-step autonomous agents, tool-calling & orchestration, RAG over enterprise knowledge, and human-in-the-loop copilots on Amazon Bedrock, LangChain & HuggingFace — with guardrails and evaluation built in.
-- 🧠 **Production ML** — recommendation engines, predictive analytics, and real-time intelligent automation with TensorFlow, PyTorch & SageMaker.
+- 🏗️ **End-to-end data platforms.** I architect and ship complete platforms from ingestion to serving: metadata-driven pipelines with Airflow, DBT, Spark, and Kafka, plus full governance, lineage, and automated lifecycle management across AWS and GCP.
+- 🤖 **GenAI and agentic AI.** In my latest work I build complete end-to-end GenAI applications and agentic AI systems: multi-step autonomous agents, tool-calling and orchestration, RAG over enterprise knowledge, and human-in-the-loop copilots on Amazon Bedrock, LangChain, and HuggingFace, all with guardrails and evaluation built in.
+- 🧠 **Production ML.** Recommendation engines, predictive analytics, and real-time intelligent automation with TensorFlow, PyTorch, and SageMaker.
 
 <p align="center">
   <img src="https://img.shields.io/badge/9-Years%20Experience-0f766e?style=for-the-badge" />
@@ -148,7 +148,7 @@ I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ yea
 | Area | Focus |
 | --- | --- |
 | **Data Platforms** | Lakehouse architectures, ELT/ETL pipelines, metadata-driven workflows, governance, lineage, and scalable analytics |
-| **Streaming Systems** | Kafka, Kinesis, Flink & Spark — event-driven pipelines for near real-time reporting and intelligent automation |
+| **Streaming Systems** | Kafka, Kinesis, Flink, and Spark for event-driven pipelines that power near real-time reporting and intelligent automation |
 | **GenAI Engineering** | RAG systems, LLM-powered agents, internal copilots, chatbots, knowledge retrieval, and workflow automation |
 | **ML & MLOps** | Production ML pipelines, feature/training workflows, recommendation systems, and cloud-native model deployment |
 
@@ -158,27 +158,27 @@ I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ yea
 
 | Role | Company | Period | Highlights |
 | --- | --- | --- | --- |
-| **Lead Data Engineer** | Orion S.A. | Jan 2024 – Present | Built **complete end-to-end data platforms** (serverless AWS lakehouse) centralizing manufacturing, operations & finance analytics; metadata-driven DBT/Airflow pipelines; led GenAI adoption shipping **production GenAI applications and agentic AI systems** with Bedrock, LangChain & Streamlit |
-| **Senior Data Engineer** | Delivery Hero SE | Jan 2022 – Jan 2024 | Batch & streaming pipelines across AWS/GCP; real-time analytics APIs; Terraform IaC modernization; BigQuery + Spark processing **billions of events/day** |
-| **Senior Data Engineer** | Meta | 2021 – 2022 | Large-scale product analytics pipelines over **petabytes** of data across distributed systems; query & workflow optimization for business-critical metrics |
-| **Senior Data Engineer** | Amazon | Sep 2020 – Jan 2022 | Predictive modeling & ML analytics; end-to-end BI/ML on Redshift, SageMaker, Glue, Lambda, Athena; multi-stream real-time systems with Kafka & Kinesis |
-| **Senior Data Engineer** | Goldman Sachs | Jun 2021 – Dec 2021 | Enterprise-scale financial analytics pipelines; secure, compliance-driven data workflows; ML model deployment support |
-| **Sr. Software Engineer / Data Scientist** | NorthBay Solutions | Feb 2019 – Sep 2020 | ETL & OCR automation for insurance/healthcare; domain ML models & recommendation engines; graph-based & Alexa-integrated LLM automation |
-| **Machine Learning Engineer** | NorthBay Solutions | Sep 2017 – Feb 2019 | Serverless ML on Lambda & SageMaker; voice-enabled LLM systems; real-time processing with Spark, Flink, EMR |
-| **Data Integration Intern** | Teradata | Jul 2016 – Sep 2016 | Complex SQL & ETL optimization; data warehouse integration procedures and technical documentation |
+| **Lead Data Engineer** | Orion S.A. | Jan 2024 - Present | Built **complete end-to-end data platforms** (serverless AWS lakehouse) centralizing manufacturing, operations & finance analytics; metadata-driven DBT/Airflow pipelines; led GenAI adoption shipping **production GenAI applications and agentic AI systems** with Bedrock, LangChain & Streamlit |
+| **Senior Data Engineer** | Delivery Hero SE | Jan 2022 - Jan 2024 | Batch & streaming pipelines across AWS/GCP; real-time analytics APIs; Terraform IaC modernization; BigQuery + Spark processing **billions of events/day** |
+| **Senior Data Engineer** | Meta | 2021 - 2022 | Large-scale product analytics pipelines over **petabytes** of data across distributed systems; query & workflow optimization for business-critical metrics |
+| **Senior Data Engineer** | Amazon | Sep 2020 - Jan 2022 | Predictive modeling & ML analytics; end-to-end BI/ML on Redshift, SageMaker, Glue, Lambda, Athena; multi-stream real-time systems with Kafka & Kinesis |
+| **Senior Data Engineer** | Goldman Sachs | Jun 2021 - Dec 2021 | Enterprise-scale financial analytics pipelines; secure, compliance-driven data workflows; ML model deployment support |
+| **Sr. Software Engineer / Data Scientist** | NorthBay Solutions | Feb 2019 - Sep 2020 | ETL & OCR automation for insurance/healthcare; domain ML models & recommendation engines; graph-based & Alexa-integrated LLM automation |
+| **Machine Learning Engineer** | NorthBay Solutions | Sep 2017 - Feb 2019 | Serverless ML on Lambda & SageMaker; voice-enabled LLM systems; real-time processing with Spark, Flink, EMR |
+| **Data Integration Intern** | Teradata | Jul 2016 - Sep 2016 | Complex SQL & ETL optimization; data warehouse integration procedures and technical documentation |
 
 ---
 
 ## 🔐 Featured Projects & Enterprise Impact
 
-> High-impact platform, ML, and GenAI systems delivered across manufacturing, e-commerce, food delivery, and regulated finance. Client names and proprietary details are withheld under NDA — the engineering and the outcomes are real.
+> High-impact platform, ML, and GenAI systems delivered across manufacturing, e-commerce, food delivery, and regulated finance. Client names and proprietary details are withheld under NDA, but the engineering and the outcomes are real.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🏭 Enterprise Serverless Lakehouse
-Fully serverless, scalable **lakehouse on AWS** for a leading manufacturing enterprise — centralizing analytics across manufacturing, operations & finance with metadata-driven pipelines, end-to-end governance, lineage tracking, and automated lifecycle management.
+Fully serverless, scalable **lakehouse on AWS** for a leading manufacturing enterprise, centralizing analytics across manufacturing, operations, and finance with metadata-driven pipelines, end-to-end governance, lineage tracking, and automated lifecycle management.
 
 `📈 Measurable Revenue Growth` `Full Data Governance`
 
@@ -188,7 +188,7 @@ Fully serverless, scalable **lakehouse on AWS** for a leading manufacturing ente
 <td width="50%" valign="top">
 
 ### 🤖 End-to-End GenAI & Agentic AI Platform
-Designed and shipped **complete end-to-end GenAI applications and agentic AI systems** — multi-step autonomous agents with tool calling and orchestration, RAG over enterprise knowledge bases, and human-in-the-loop copilots — on **Amazon Bedrock, LangChain & LangGraph**, with guardrails, evaluation harnesses, and observability built in.
+Designed and shipped **complete end-to-end GenAI applications and agentic AI systems**: multi-step autonomous agents with tool calling and orchestration, RAG over enterprise knowledge bases, and human-in-the-loop copilots, built on **Amazon Bedrock, LangChain, and LangGraph** with guardrails, evaluation harnesses, and observability throughout.
 
 `🤖 Autonomous Agents` `Tool Calling & Orchestration` `Enterprise RAG`
 
@@ -200,7 +200,7 @@ Designed and shipped **complete end-to-end GenAI applications and agentic AI sys
 <td width="50%" valign="top">
 
 ### ⚡ Multi-Stream Real-Time Data Platform
-**Kafka + Kinesis** real-time systems for a leading e-commerce platform processing **billions of events/day** — powering CX optimization, predictive analytics, and dynamic metric dashboards across global markets.
+**Kafka + Kinesis** real-time systems for a leading e-commerce platform processing **billions of events/day** to power CX optimization, predictive analytics, and dynamic metric dashboards across global markets.
 
 `⚡ Billions of Events/Day` `Real-Time Insights`
 
@@ -210,7 +210,7 @@ Designed and shipped **complete end-to-end GenAI applications and agentic AI sys
 <td width="50%" valign="top">
 
 ### 🌍 Global Large-Scale Analytics on GCP
-**BigQuery, Spark & Cloud Functions** analytics for a global food-delivery platform processing billions of events across international markets — **driving millions in revenue** through automated decision-making and real-time analytics.
+**BigQuery, Spark & Cloud Functions** analytics for a global food-delivery platform processing billions of events across international markets, **driving millions in revenue** through automated decision-making and real-time analytics.
 
 `💰 Millions in Revenue` `Global Markets`
 
@@ -222,7 +222,7 @@ Designed and shipped **complete end-to-end GenAI applications and agentic AI sys
 <td width="50%" valign="top">
 
 ### 🧠 Production ML & Recommendation Engines
-Production-grade ML pipelines and recommendation engines with **SageMaker, TensorFlow & PyTorch** — automated deep-learning workflows for predictive analytics, customer segmentation, and targeted advertising.
+Production-grade ML pipelines and recommendation engines with **SageMaker, TensorFlow & PyTorch**, automating deep-learning workflows for predictive analytics, customer segmentation, and targeted advertising.
 
 `Improved CX` `Targeted Advertising`
 
@@ -232,7 +232,7 @@ Production-grade ML pipelines and recommendation engines with **SageMaker, Tenso
 <td width="50%" valign="top">
 
 ### 🏗️ Terraform Multi-Cloud Modernization
-**Terraform-based IaC** across AWS & GCP — improving deployment consistency, reproducibility, and enabling automated multi-cloud infrastructure management at enterprise scale.
+**Terraform-based IaC** across AWS & GCP, improving deployment consistency and reproducibility while enabling automated multi-cloud infrastructure management at enterprise scale.
 
 `Automated Deployments` `Enhanced Security`
 
@@ -244,14 +244,14 @@ Production-grade ML pipelines and recommendation engines with **SageMaker, Tenso
 
 ---
 
-## 🌱 Building in Public — Open Source & Side Projects
+## 🌱 Open Source & Side Projects
 
 <table>
 <tr>
 <td width="33%" valign="top" align="center">
 
 ### 📚 Cracking ML Interview
-Comprehensive guide for **ML & GenAI interviews** — solutions, patterns & best practices with a dedicated GenAI section. Helping thousands of engineers land roles at top tech companies.
+Comprehensive guide for **ML & GenAI interviews** with solutions, patterns, and best practices, plus a dedicated GenAI section. Helping thousands of engineers land roles at top tech companies.
 
 [![Stars](https://img.shields.io/github/stars/shafaypro/CrackingMachineLearningInterview?style=social)](https://github.com/shafaypro/CrackingMachineLearningInterview/stargazers)
 
@@ -262,7 +262,7 @@ Comprehensive guide for **ML & GenAI interviews** — solutions, patterns & best
 <td width="33%" valign="top" align="center">
 
 ### 🇩🇪 DeutschHier
-Full-stack **German language learning platform** — interactive lessons, practice exercises, and real-world content powered by NLP.
+Full-stack **German language learning platform** with interactive lessons, practice exercises, and real-world content powered by NLP.
 
 [![Live](https://img.shields.io/badge/🌐%20Visit%20Site-0f766e?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.deutschhier.com/)
 
@@ -282,10 +282,10 @@ Gamified learning for German noun genders (**der / die / das**) with spaced repe
 
 ## 📈 Current Focus
 
-- 🪨 Modern lakehouse & open table formats — **Delta Lake** and **Apache Iceberg** patterns
+- 🪨 Modern lakehouse and open table formats: **Delta Lake** and **Apache Iceberg** patterns
 - ✅ Data quality, contracts, lineage, and trustworthy pipelines at platform scale (Great Expectations, dbt tests)
 - 🔴 Real-time data products powered by **Kafka, Kinesis, Flink & Spark**
-- 🧩 **End-to-end GenAI & agentic AI** — autonomous multi-step agents, tool/function calling, MCP, RAG over knowledge bases, and evaluation-driven iteration
+- 🧩 **End-to-end GenAI and agentic AI**: autonomous multi-step agents, tool/function calling, MCP, RAG over knowledge bases, and evaluation-driven iteration
 - ☁️ Multi-cloud data & AI infrastructure with **Terraform, Kubernetes, CI/CD**
 - ⚙️ ML & LLM platform engineering focused on reliability, governance, and cost-aware deployment
 
