@@ -54,7 +54,7 @@ def build_data_platform():
         'cloud':          ['AWS', 'GCP', 'Serverless'],
         'architecture':   ['Lakehouse', 'Delta Lake', 'Data Mesh', 'Event-Driven'],
         'data_stack':     ['Airflow', 'DBT', 'Databricks', 'Spark', 'Kafka', 'Iceberg'],
-        'genai_ml':       ['Bedrock', 'LangChain', 'SageMaker', 'PyTorch', 'RAG'],
+        'genai_ml':       ['Agentic AI', 'Bedrock', 'LangGraph', 'RAG', 'SageMaker'],
         'scale':          'billions of events / day',
         'impact':         'measurable revenue growth & operational excellence',
     }
@@ -62,8 +62,8 @@ def build_data_platform():
 
 I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ years** architecting enterprise-scale data platforms and intelligent systems. Across top-tier companies — **Meta, Amazon, Delivery Hero, Goldman Sachs**, and leading enterprises — I've built solutions processing **billions of events daily**, driving measurable revenue growth and operational excellence.
 
-- 🏗️ **Data Engineering at scale** — metadata-driven pipelines with Airflow, DBT, Spark & Kafka, full data governance, lineage tracking, and automated lifecycle management across AWS & GCP.
-- 🤖 **GenAI & LLM engineering** — production RAG systems, AI agents, and chatbots on Amazon Bedrock, LangChain & HuggingFace.
+- 🏗️ **End-to-end data platforms** — I architect and ship complete platforms from ingestion to serving: metadata-driven pipelines with Airflow, DBT, Spark & Kafka, full governance, lineage, and automated lifecycle management across AWS & GCP.
+- 🤖 **GenAI & agentic AI** — in my latest work I build **complete end-to-end GenAI applications and agentic AI systems**: multi-step autonomous agents, tool-calling & orchestration, RAG over enterprise knowledge, and human-in-the-loop copilots on Amazon Bedrock, LangChain & HuggingFace — with guardrails and evaluation built in.
 - 🧠 **Production ML** — recommendation engines, predictive analytics, and real-time intelligent automation with TensorFlow, PyTorch & SageMaker.
 
 <p align="center">
@@ -122,8 +122,11 @@ I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ yea
 ![Amazon Bedrock](https://img.shields.io/badge/Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-0f766e?style=flat-square&logo=probot&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=flat-square&logo=meta&logoColor=white)
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -155,7 +158,7 @@ I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ yea
 
 | Role | Company | Period | Highlights |
 | --- | --- | --- | --- |
-| **Lead Data Engineer** | Orion S.A. | Jan 2024 – Present | Serverless AWS lakehouse centralizing manufacturing, operations & finance analytics; metadata-driven DBT/Airflow pipelines; led GenAI adoption with Bedrock, LangChain & Streamlit |
+| **Lead Data Engineer** | Orion S.A. | Jan 2024 – Present | Built **complete end-to-end data platforms** (serverless AWS lakehouse) centralizing manufacturing, operations & finance analytics; metadata-driven DBT/Airflow pipelines; led GenAI adoption shipping **production GenAI applications and agentic AI systems** with Bedrock, LangChain & Streamlit |
 | **Senior Data Engineer** | Delivery Hero SE | Jan 2022 – Jan 2024 | Batch & streaming pipelines across AWS/GCP; real-time analytics APIs; Terraform IaC modernization; BigQuery + Spark processing **billions of events/day** |
 | **Senior Data Engineer** | Meta | 2021 – 2022 | Large-scale product analytics pipelines over **petabytes** of data across distributed systems; query & workflow optimization for business-critical metrics |
 | **Senior Data Engineer** | Amazon | Sep 2020 – Jan 2022 | Predictive modeling & ML analytics; end-to-end BI/ML on Redshift, SageMaker, Glue, Lambda, Athena; multi-stream real-time systems with Kafka & Kinesis |
@@ -184,12 +187,12 @@ Fully serverless, scalable **lakehouse on AWS** for a leading manufacturing ente
 </td>
 <td width="50%" valign="top">
 
-### 🤖 LLM-Powered AI Agents & Chatbots
-Led GenAI adoption integrating **Amazon Bedrock, LangChain & Streamlit** to ship production-ready LLM agents and Q&A chatbots for internal automation and knowledge retrieval — revolutionizing business operations.
+### 🤖 End-to-End GenAI & Agentic AI Platform
+Designed and shipped **complete end-to-end GenAI applications and agentic AI systems** — multi-step autonomous agents with tool calling and orchestration, RAG over enterprise knowledge bases, and human-in-the-loop copilots — on **Amazon Bedrock, LangChain & LangGraph**, with guardrails, evaluation harnesses, and observability built in.
 
-`AI Automation` `Knowledge Retrieval`
+`🤖 Autonomous Agents` `Tool Calling & Orchestration` `Enterprise RAG`
 
-<sub>**Amazon Bedrock · LangChain · Streamlit · HuggingFace · OpenAI · Vector DB · RAG**</sub>
+<sub>**Bedrock · LangChain · LangGraph · MCP · Streamlit · HuggingFace · OpenAI · Vector DB · RAG**</sub>
 
 </td>
 </tr>
@@ -250,6 +253,9 @@ Production-grade ML pipelines and recommendation engines with **SageMaker, Tenso
 ### 📚 Cracking ML Interview
 Comprehensive guide for **ML & GenAI interviews** — solutions, patterns & best practices with a dedicated GenAI section. Helping thousands of engineers land roles at top tech companies.
 
+[![Stars](https://img.shields.io/github/stars/shafaypro/CrackingMachineLearningInterview?style=social)](https://github.com/shafaypro/CrackingMachineLearningInterview/stargazers)
+
+[![Read the Guide](https://img.shields.io/badge/📖%20Read%20the%20Guide-0f766e?style=for-the-badge&logo=githubpages&logoColor=white)](https://shafaypro.github.io/CrackingMachineLearningInterview/)
 [![Repo](https://img.shields.io/badge/⭐%20View%20Repo-0f172a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shafaypro/CrackingMachineLearningInterview)
 
 </td>
@@ -279,7 +285,7 @@ Gamified learning for German noun genders (**der / die / das**) with spaced repe
 - 🪨 Modern lakehouse & open table formats — **Delta Lake** and **Apache Iceberg** patterns
 - ✅ Data quality, contracts, lineage, and trustworthy pipelines at platform scale (Great Expectations, dbt tests)
 - 🔴 Real-time data products powered by **Kafka, Kinesis, Flink & Spark**
-- 🧩 Production **GenAI** with RAG, knowledge bases, agents, and evaluation-driven iteration
+- 🧩 **End-to-end GenAI & agentic AI** — autonomous multi-step agents, tool/function calling, MCP, RAG over knowledge bases, and evaluation-driven iteration
 - ☁️ Multi-cloud data & AI infrastructure with **Terraform, Kubernetes, CI/CD**
 - ⚙️ ML & LLM platform engineering focused on reliability, governance, and cost-aware deployment
 
