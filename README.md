@@ -50,7 +50,7 @@ def build_data_platform():
         'role':           'Lead Data Engineer',
         'based_in':       'Berlin, Germany 🇩🇪',
         'specialization': ['GenAI', 'ML Engineering', 'Data Platforms'],
-        'experience':     '9+ years • Meta, Amazon, Delivery Hero, Goldman Sachs & more',
+        'experience':     '9+ years • Amazon, Delivery Hero, Goldman Sachs & more',
         'cloud':          ['AWS', 'GCP', 'Serverless'],
         'architecture':   ['Lakehouse', 'Delta Lake', 'Data Mesh', 'Event-Driven'],
         'data_stack':     ['Airflow', 'DBT', 'Databricks', 'Spark', 'Kafka', 'Iceberg'],
@@ -60,7 +60,7 @@ def build_data_platform():
     }
 ```
 
-I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ years** architecting enterprise-scale data platforms and intelligent systems. Across top-tier companies like **Meta, Amazon, Delivery Hero, and Goldman Sachs**, I've built solutions processing **billions of events daily** that drive measurable revenue growth and operational excellence.
+I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ years** architecting enterprise-scale data platforms and intelligent systems. Across top-tier companies like **Amazon, Delivery Hero, and Goldman Sachs**, I've built solutions processing **billions of events daily** that drive measurable revenue growth and operational excellence.
 
 - 🏗️ **End-to-end data platforms.** I architect and ship complete platforms from ingestion to serving: metadata-driven pipelines with Airflow, DBT, Spark, and Kafka, plus full governance, lineage, and automated lifecycle management across AWS and GCP.
 - 🤖 **GenAI and agentic AI.** In my latest work I build complete end-to-end GenAI applications and agentic AI systems: multi-step autonomous agents, tool-calling and orchestration, RAG over enterprise knowledge, and human-in-the-loop copilots on Amazon Bedrock, LangChain, and HuggingFace, all with guardrails and evaluation built in.
@@ -69,7 +69,7 @@ I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ yea
 <p align="center">
   <img src="https://img.shields.io/badge/9-Years%20Experience-0f766e?style=for-the-badge" />
   <img src="https://img.shields.io/badge/13-Certifications-7c3aed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/6-Major%20Companies-1d4ed8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/5-Major%20Companies-1d4ed8?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Billions-Events%20Processed-b45309?style=for-the-badge" />
 </p>
 
@@ -160,7 +160,6 @@ I'm a **Lead Data Engineer and GenAI specialist based in Berlin**, with **9+ yea
 | --- | --- | --- | --- |
 | **Lead Data Engineer** | Orion S.A. | Jan 2024 - Present | Built **complete end-to-end data platforms** (serverless AWS lakehouse) centralizing manufacturing, operations & finance analytics; metadata-driven DBT/Airflow pipelines; led GenAI adoption shipping **production GenAI applications and agentic AI systems** with Bedrock, LangChain & Streamlit |
 | **Senior Data Engineer** | Delivery Hero SE | Jan 2022 - Jan 2024 | Batch & streaming pipelines across AWS/GCP; real-time analytics APIs; Terraform IaC modernization; BigQuery + Spark processing **billions of events/day** |
-| **Senior Data Engineer** | Meta | 2021 - 2022 | Large-scale product analytics pipelines over **petabytes** of data across distributed systems; query & workflow optimization for business-critical metrics |
 | **Senior Data Engineer** | Amazon | Sep 2020 - Jan 2022 | Predictive modeling & ML analytics; end-to-end BI/ML on Redshift, SageMaker, Glue, Lambda, Athena; multi-stream real-time systems with Kafka & Kinesis |
 | **Senior Data Engineer** | Goldman Sachs | Jun 2021 - Dec 2021 | Enterprise-scale financial analytics pipelines; secure, compliance-driven data workflows; ML model deployment support |
 | **Sr. Software Engineer / Data Scientist** | NorthBay Solutions | Feb 2019 - Sep 2020 | ETL & OCR automation for insurance/healthcare; domain ML models & recommendation engines; graph-based & Alexa-integrated LLM automation |
