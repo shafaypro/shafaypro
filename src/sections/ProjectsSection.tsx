@@ -7,48 +7,55 @@ interface Project {
   number: string
   name: string
   category: string
-  col1: [string, string]
-  col2: string
+  description: string
+  impact: string[]
+  stack: string[]
 }
 
 const PROJECTS: Project[] = [
   {
     number: '01',
-    name: 'Nextlevel Studio',
-    category: 'Client',
-    col1: [
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85',
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85',
+    name: 'Enterprise Serverless Lakehouse',
+    category: 'Data Platform · AWS',
+    description:
+      'A fully serverless, scalable lakehouse on AWS for a leading manufacturing enterprise, centralizing analytics across manufacturing, operations, and finance with metadata-driven pipelines, end-to-end governance, lineage tracking, and automated lifecycle management.',
+    impact: ['Measurable Revenue Growth', 'Full Data Governance'],
+    stack: [
+      'Glue',
+      'Athena',
+      'Lake Formation',
+      'Delta Lake',
+      'Step Functions',
+      'dbt',
+      'Terraform',
     ],
-    col2:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85',
   },
   {
     number: '02',
-    name: 'Aura Brand Identity',
-    category: 'Personal',
-    col1: [
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85',
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85',
+    name: 'End-to-End GenAI & Agentic AI Platform',
+    category: 'GenAI · Agentic AI',
+    description:
+      'Designed and shipped complete GenAI applications and agentic AI systems: multi-step autonomous agents with tool calling and orchestration, RAG over enterprise knowledge bases, and human-in-the-loop copilots, built with guardrails, evaluation harnesses, and observability throughout.',
+    impact: ['Autonomous Agents', 'Enterprise RAG'],
+    stack: [
+      'Bedrock',
+      'LangChain',
+      'LangGraph',
+      'MCP',
+      'HuggingFace',
+      'Vector DB',
     ],
-    col2:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea.png&w=1280&q=85',
   },
   {
     number: '03',
-    name: 'Solaris Digital',
-    category: 'Client',
-    col1: [
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85',
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b.png&w=1280&q=85',
-    ],
-    col2:
-      'https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85',
+    name: 'Multi-Stream Real-Time Data Platform',
+    category: 'Streaming · Real-Time',
+    description:
+      'Kafka and Kinesis real-time systems for a leading e-commerce platform processing billions of events per day to power CX optimization, predictive analytics, and dynamic metric dashboards across global markets.',
+    impact: ['Billions of Events / Day', 'Real-Time Insights'],
+    stack: ['Kafka', 'Kinesis', 'Lambda', 'DynamoDB', 'Step Functions', 'Spark'],
   },
 ]
-
-const IMG_RADIUS =
-  'rounded-[40px] sm:rounded-[50px] md:rounded-[60px]'
 
 interface CardProps {
   project: Project
@@ -74,7 +81,7 @@ function ProjectCard({ project, index, totalCards }: CardProps) {
     >
       <motion.div
         style={{ scale }}
-        className="w-full origin-top rounded-[40px] border-2 border-[#D7E2EA] bg-[#0C0C0C] p-4 sm:rounded-[50px] sm:p-6 md:rounded-[60px] md:p-8"
+        className="w-full origin-top rounded-[40px] border-2 border-[#D7E2EA] bg-[#0C0C0C] p-6 sm:rounded-[50px] sm:p-8 md:rounded-[60px] md:p-10"
       >
         {/* Top row */}
         <div className="flex flex-wrap items-center justify-between gap-4">
@@ -100,31 +107,40 @@ function ProjectCard({ project, index, totalCards }: CardProps) {
           <LiveProjectButton />
         </div>
 
-        {/* Bottom row: image grid */}
-        <div className="mt-4 flex gap-3 sm:mt-6 md:mt-8">
-          <div className="flex w-2/5 flex-col gap-3">
-            <img
-              src={project.col1[0]}
-              alt={`${project.name} preview 1`}
-              loading="lazy"
-              className={`w-full object-cover ${IMG_RADIUS}`}
-              style={{ height: 'clamp(130px, 16vw, 230px)' }}
-            />
-            <img
-              src={project.col1[1]}
-              alt={`${project.name} preview 2`}
-              loading="lazy"
-              className={`w-full object-cover ${IMG_RADIUS}`}
-              style={{ height: 'clamp(160px, 22vw, 340px)' }}
-            />
-          </div>
-          <div className="w-3/5">
-            <img
-              src={project.col2}
-              alt={`${project.name} preview 3`}
-              loading="lazy"
-              className={`h-full w-full object-cover ${IMG_RADIUS}`}
-            />
+        {/* Bottom row: description + tags */}
+        <div className="mt-6 grid gap-8 md:mt-10 md:grid-cols-[3fr_2fr]">
+          <p
+            className="font-light leading-relaxed text-[#D7E2EA] opacity-80"
+            style={{ fontSize: 'clamp(0.95rem, 1.6vw, 1.35rem)' }}
+          >
+            {project.description}
+          </p>
+
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-wrap gap-2">
+              {project.impact.map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full px-4 py-2 text-xs font-medium uppercase tracking-widest text-white sm:text-sm"
+                  style={{
+                    background:
+                      'linear-gradient(123deg, #18011F 7%, #B600A8 37%, #7621B0 72%, #BE4C00 100%)',
+                  }}
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {project.stack.map((tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full border border-[#D7E2EA]/25 px-3 py-1.5 text-xs font-light uppercase tracking-wider text-[#D7E2EA] opacity-80"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </motion.div>
@@ -135,7 +151,7 @@ function ProjectCard({ project, index, totalCards }: CardProps) {
 export default function ProjectsSection() {
   return (
     <section
-      id="projects"
+      id="work"
       className="relative z-10 -mt-10 rounded-t-[40px] bg-[#0C0C0C] px-5 py-20 sm:-mt-12 sm:rounded-t-[50px] sm:px-8 md:-mt-14 md:rounded-t-[60px] md:px-10"
     >
       <FadeIn
@@ -144,7 +160,7 @@ export default function ProjectsSection() {
         className="hero-heading mb-16 text-center font-black uppercase leading-none tracking-tight sm:mb-20 md:mb-28"
         style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
       >
-        Project
+        Work
       </FadeIn>
 
       <div className="mx-auto max-w-6xl">

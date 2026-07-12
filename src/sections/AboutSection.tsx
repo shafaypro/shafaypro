@@ -3,7 +3,14 @@ import AnimatedText from '../components/AnimatedText'
 import ContactButton from '../components/ContactButton'
 
 const ABOUT_TEXT =
-  "With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!"
+  "I'm a lead data engineer and genai specialist based in berlin, with 9+ years architecting enterprise-scale data platforms and intelligent systems. Across companies like Amazon, Delivery Hero, and Goldman Sachs, i've built solutions processing billions of events daily that drive measurable revenue growth. Let's build something amazing together!"
+
+const STATS = [
+  { value: '9+', label: 'Years Experience' },
+  { value: '13+', label: 'Certifications' },
+  { value: '5', label: 'Major Companies' },
+  { value: 'Billions', label: 'Events / Day' },
+]
 
 export default function AboutSection() {
   return (
@@ -83,13 +90,38 @@ export default function AboutSection() {
 
           <AnimatedText
             text={ABOUT_TEXT}
-            className="max-w-[560px] text-center font-medium leading-relaxed text-[#D7E2EA]"
+            className="max-w-[620px] text-center font-medium leading-relaxed text-[#D7E2EA]"
             style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' }}
           />
+
+          <div className="flex flex-wrap items-stretch justify-center gap-3 sm:gap-4">
+            {STATS.map((stat, i) => (
+              <FadeIn
+                key={stat.label}
+                delay={0.1 + i * 0.1}
+                y={20}
+                className="flex min-w-[130px] flex-1 flex-col items-center gap-1 rounded-2xl border border-[#D7E2EA]/15 px-6 py-5"
+                style={{
+                  background:
+                    'linear-gradient(145deg, rgba(215,226,234,0.06) 0%, rgba(12,12,12,0.4) 100%)',
+                }}
+              >
+                <span
+                  className="hero-heading font-black leading-none tracking-tight"
+                  style={{ fontSize: 'clamp(1.75rem, 4vw, 2.75rem)' }}
+                >
+                  {stat.value}
+                </span>
+                <span className="text-center text-xs font-light uppercase tracking-widest text-[#D7E2EA] opacity-70 sm:text-sm">
+                  {stat.label}
+                </span>
+              </FadeIn>
+            ))}
+          </div>
         </div>
 
         <FadeIn delay={0.2} y={20}>
-          <ContactButton />
+          <ContactButton label="Let's talk" />
         </FadeIn>
       </div>
     </section>

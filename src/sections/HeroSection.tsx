@@ -2,7 +2,7 @@ import FadeIn from '../components/FadeIn'
 import Magnet from '../components/Magnet'
 import ContactButton from '../components/ContactButton'
 
-const NAV_LINKS = ['About', 'Price', 'Projects', 'Contact']
+const NAV_LINKS = ['About', 'Expertise', 'Work', 'Contact']
 
 export default function HeroSection() {
   return (
@@ -36,7 +36,7 @@ export default function HeroSection() {
           y={40}
           className="hero-heading mt-6 w-full whitespace-nowrap text-center text-[14vw] font-black uppercase leading-none tracking-tight sm:mt-4 sm:text-[15vw] md:-mt-5 md:text-[16vw] lg:text-[17.5vw]"
         >
-          Hi, i&apos;m jack
+          Hi, i&apos;m shafay
         </FadeIn>
       </div>
 
@@ -49,11 +49,12 @@ export default function HeroSection() {
           className="max-w-[160px] text-[#D7E2EA] font-light uppercase leading-snug tracking-wide sm:max-w-[220px] md:max-w-[260px]"
           style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
         >
-          a 3d creator driven by crafting striking and unforgettable projects
+          a lead data engineer &amp; genai specialist building enterprise-scale
+          data platforms and intelligent systems
         </FadeIn>
 
         <FadeIn delay={0.5} y={20}>
-          <ContactButton />
+          <ContactButton label="Let's talk" />
         </FadeIn>
       </div>
 
@@ -70,9 +71,9 @@ export default function HeroSection() {
           inactiveTransition="transform 0.6s ease-in-out"
         >
           <img
-            src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png"
-            alt="Jack, 3D creator portrait"
-            className="w-full select-none"
+            src="https://github.com/shafaypro.png"
+            alt="Shafay Amjad"
+            className="aspect-square w-full select-none rounded-[32px] border-2 border-[#D7E2EA]/30 object-cover shadow-2xl shadow-black/60"
             draggable={false}
           />
         </Magnet>

@@ -3,40 +3,40 @@ import FadeIn from '../components/FadeIn'
 const SERVICES = [
   {
     number: '01',
-    name: '3D Modeling',
+    name: 'Data Platforms',
     description:
-      'Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.',
+      'End-to-end lakehouse architectures on AWS and GCP: metadata-driven ELT/ETL pipelines with Airflow, dbt, and Spark, plus full governance, lineage, and automated lifecycle management.',
   },
   {
     number: '02',
-    name: 'Rendering',
+    name: 'GenAI Engineering',
     description:
-      'High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.',
+      'Complete end-to-end GenAI and agentic AI systems: multi-step autonomous agents, tool calling and orchestration, RAG over enterprise knowledge, and human-in-the-loop copilots on Bedrock and LangChain.',
   },
   {
     number: '03',
-    name: 'Motion Design',
+    name: 'Streaming Systems',
     description:
-      'Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.',
+      'Event-driven pipelines with Kafka, Kinesis, Flink, and Spark that process billions of events per day to power near real-time reporting and intelligent automation.',
   },
   {
     number: '04',
-    name: 'Branding',
+    name: 'ML & MLOps',
     description:
-      'Crafting cohesive visual identities, from logos to full brand systems, that communicate a clear and memorable presence.',
+      'Production ML pipelines, recommendation engines, and predictive analytics with SageMaker, TensorFlow, and PyTorch, deployed cloud-native with reliability and governance built in.',
   },
   {
     number: '05',
-    name: 'Web Design',
+    name: 'Cloud & DevOps',
     description:
-      'Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.',
+      'Multi-cloud infrastructure as code with Terraform, Kubernetes, and CI/CD, enabling consistent, reproducible, and cost-aware deployments across AWS and GCP.',
   },
 ]
 
 export default function ServicesSection() {
   return (
     <section
-      id="price"
+      id="expertise"
       className="rounded-t-[40px] bg-white px-5 py-20 sm:rounded-t-[50px] sm:px-8 sm:py-24 md:rounded-t-[60px] md:px-10 md:py-32"
     >
       <FadeIn
@@ -45,7 +45,7 @@ export default function ServicesSection() {
         className="mb-16 text-center font-black uppercase text-[#0C0C0C] sm:mb-20 md:mb-28"
         style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
       >
-        Services
+        Expertise
       </FadeIn>
 
       <div className="mx-auto max-w-5xl">
