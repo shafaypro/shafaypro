@@ -53,9 +53,9 @@ export default function ContactSection() {
         className="max-w-xl text-center font-light leading-relaxed text-[#0C0C0C] opacity-60"
         style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' }}
       >
-        Looking for a lead data engineer, need consultation on cloud
-        architecture, or want to collaborate on AI projects? I&apos;d love to
-        hear from you.
+        Looking for a lead data engineer, data scientist, or GenAI enterprise
+        application developer, need consultation on cloud architecture, or want
+        to collaborate on AI projects? I&apos;d love to hear from you.
       </FadeIn>
 
       <FadeIn delay={0.25} y={20}>

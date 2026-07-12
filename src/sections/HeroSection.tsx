@@ -1,8 +1,18 @@
 import FadeIn from '../components/FadeIn'
 import Magnet from '../components/Magnet'
 import ContactButton from '../components/ContactButton'
+import RotatingRoles from '../components/RotatingRoles'
 
 const NAV_LINKS = ['About', 'Expertise', 'Work', 'Contact']
+
+const ROLES = [
+  'Lead Data Engineer',
+  'Data Scientist',
+  'GenAI Enterprise App Developer',
+  'ML Platform Architect',
+  'Agentic AI Engineer',
+  'Cloud Data Architect',
+]
 
 export default function HeroSection() {
   return (
@@ -41,17 +51,35 @@ export default function HeroSection() {
       </div>
 
       {/* Bottom bar */}
-      <div className="mt-auto flex items-end justify-between px-6 pb-7 md:px-10 sm:pb-8 md:pb-10">
-        <FadeIn
-          as="p"
-          delay={0.35}
-          y={20}
-          className="max-w-[160px] text-[#D7E2EA] font-light uppercase leading-snug tracking-wide sm:max-w-[220px] md:max-w-[260px]"
-          style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
-        >
-          a lead data engineer &amp; genai specialist building enterprise-scale
-          data platforms and intelligent systems
-        </FadeIn>
+      <div className="z-20 mt-auto flex items-end justify-between px-6 pb-7 md:px-10 sm:pb-8 md:pb-10">
+        <div className="flex flex-col gap-4">
+          {/* Open-to strip: animated rotating roles */}
+          <FadeIn delay={0.28} y={16}>
+            <div
+              className="flex w-fit items-center gap-3 rounded-full border border-[#D7E2EA]/20 px-5 py-2.5 backdrop-blur-sm"
+              style={{ background: 'rgba(215, 226, 234, 0.04)' }}
+            >
+              <span className="hidden text-xs font-light uppercase tracking-widest text-[#D7E2EA] opacity-70 sm:inline sm:text-sm">
+                Open to
+              </span>
+              <RotatingRoles
+                roles={ROLES}
+                className="text-sm font-medium uppercase tracking-wider text-[#D7E2EA] sm:text-base"
+              />
+            </div>
+          </FadeIn>
+
+          <FadeIn
+            as="p"
+            delay={0.35}
+            y={20}
+            className="max-w-[160px] text-[#D7E2EA] font-light uppercase leading-snug tracking-wide sm:max-w-[220px] md:max-w-[260px]"
+            style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
+          >
+            a lead data engineer &amp; genai specialist building
+            enterprise-scale data platforms and intelligent systems
+          </FadeIn>
+        </div>
 
         <FadeIn delay={0.5} y={20}>
           <ContactButton label="Let's talk" />
