@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Shafay Amjad — Lead Data Engineer, GenAI and ML Platform Architect">
+  <defs>
+    <radialGradient id="bg" cx="72%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0c2a26"/>
+      <stop offset="55%" stop-color="#0a1512"/>
+      <stop offset="100%" stop-color="#050807"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="50%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0; 0.4 0; -0.4 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="0" y="0" width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="25" fill="none" stroke="#2dd4bf" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <!-- twinkling stars -->
+  <g fill="#7dd3fc">
+    <circle cx="640" cy="70" r="1.6"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="90" r="1.4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.4s" begin="-0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="300" r="1.8"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="3.6s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="300" r="1.3"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="2.8s" begin="-0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="200" r="1.2"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.3s" begin="-1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="210" r="1.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.6s" begin="-0.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ===================== 3D WIREFRAME GLOBE ===================== -->
+  <g transform="translate(895 180)" filter="url(#softglow)">
+
+    <!-- orbit ring 1 -->
+    <g transform="rotate(24)">
+      <ellipse cx="0" cy="0" rx="205" ry="66" fill="none" stroke="url(#stroke)" stroke-opacity="0.55" stroke-width="1.4"/>
+      <circle r="4.5" fill="#5eead4">
+        <animateMotion dur="7s" repeatCount="indefinite" path="M -205,0 a 205,66 0 1,0 410,0 a 205,66 0 1,0 -410,0"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- orbit ring 2 -->
+    <g transform="rotate(-38)">
+      <ellipse cx="0" cy="0" rx="225" ry="58" fill="none" stroke="url(#stroke)" stroke-opacity="0.4" stroke-width="1.4"/>
+      <circle r="3.8" fill="#60a5fa">
+        <animateMotion dur="9s" begin="-3s" repeatCount="indefinite" path="M -225,0 a 225,58 0 1,1 450,0 a 225,58 0 1,1 -450,0"/>
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- sphere silhouette -->
+    <circle cx="0" cy="0" r="130" fill="#0a1512" fill-opacity="0.55" stroke="url(#stroke)" stroke-width="2"/>
+
+    <!-- latitude parallels (tilted ellipses) -->
+    <g fill="none" stroke="url(#stroke)" stroke-width="1.3" stroke-opacity="0.5">
+      <ellipse cx="0" cy="-100" rx="83" ry="23"/>
+      <ellipse cx="0" cy="-55" rx="118" ry="33"/>
+      <ellipse cx="0" cy="0" rx="130" ry="36"/>
+      <ellipse cx="0" cy="55" rx="118" ry="33"/>
+      <ellipse cx="0" cy="100" rx="83" ry="23"/>
+    </g>
+
+    <!-- longitude meridians (animated rx = spinning globe) -->
+    <g fill="none" stroke="url(#stroke)" stroke-width="1.3" stroke-opacity="0.7" filter="url(#glow)">
+      <ellipse cx="0" cy="0" rx="130" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="0s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="0" cy="0" rx="112" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="-1.28s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="0" cy="0" rx="88" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="-2.57s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="0" cy="0" rx="60" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="-3.86s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="0" cy="0" rx="30" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="-5.14s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="0" cy="0" rx="88" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="-6.43s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="0" cy="0" rx="112" ry="130"><animate attributeName="rx" values="130;4;130" keyTimes="0;0.5;1" dur="9s" begin="-7.71s" repeatCount="indefinite"/></ellipse>
+    </g>
+
+    <!-- pole nodes -->
+    <circle cx="0" cy="-130" r="4" fill="#5eead4"><animate attributeName="r" values="3;5.5;3" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="0" cy="130" r="4" fill="#60a5fa"><animate attributeName="r" values="3;5.5;3" dur="2.8s" begin="-1.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ===================== TEXT BLOCK ===================== -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="80" y="150" font-size="66" font-weight="900" fill="url(#txt)" letter-spacing="1">SHAFAY AMJAD</text>
+    <text x="83" y="192" font-size="19" font-weight="600" fill="#9fb8c8" letter-spacing="4">LEAD DATA ENGINEER  ·  GENAI  ·  ML PLATFORM ARCHITECT</text>
+
+    <!-- animated underline -->
+    <rect x="83" y="207" height="3" rx="1.5" fill="url(#stroke)">
+      <animate attributeName="width" values="0;470;470;0" keyTimes="0;0.4;0.85;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- open to work pill -->
+    <g transform="translate(83 244)">
+      <rect x="0" y="0" width="192" height="34" rx="17" fill="#0f766e" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.5" stroke-width="1"/>
+      <circle cx="20" cy="17" r="5" fill="#34d399">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="36" y="22" font-size="14" font-weight="700" fill="#a7f3d0" letter-spacing="2">OPEN TO WORK</text>
+    </g>
+
+    <text x="80" y="322" font-size="15" font-weight="500" fill="#64748b" letter-spacing="1">Berlin, Germany  ·  9+ years  ·  Amazon · Delivery Hero · Goldman Sachs</text>
+  </g>
+</svg>
