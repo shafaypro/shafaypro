@@ -1,7 +1,14 @@
-<!-- ====================== HEADER ====================== -->
-<a href="https://shafay.deutschhier.com/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3d2e,50:0f766e,100:1d4ed8&height=200&section=header&text=Shafay%20Amjad&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Lead%20Data%20Engineer%20%7C%20GenAI%20Specialist%20%7C%20ML%20Platform%20Architect&descSize=18&descAlignY=58" alt="Shafay Amjad" />
+<!-- ====================== ANIMATED 3D HEADER ====================== -->
+<a href="https://shafaypro.github.io/shafaypro/">
+  <img src="./assets/hero-3d.svg" alt="Shafay Amjad — Lead Data Engineer, GenAI & ML Platform Architect" width="100%" />
 </a>
+
+<!-- ====================== LIVE 3D PORTFOLIO CTA ====================== -->
+<p align="center">
+  <a href="https://shafaypro.github.io/shafaypro/">
+    <img src="https://img.shields.io/badge/🌐%20Explore%20the%20Live%203D%20Portfolio-0f766e?style=for-the-badge&logo=react&logoColor=white" alt="Live 3D Portfolio" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/shafaypro">
